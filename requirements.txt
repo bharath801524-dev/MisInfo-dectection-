@@ -1,0 +1,19 @@
+# Mis-Info Verify - Core Dependencies
+# Phase 1 & Phase 2: Evidence-First Misinformation Verification
+
+# Web application UI framework
+streamlit>=1.35.0
+
+# Environment and configuration management
+python-dotenv>=1.0.0
+
+# Data modeling and schema validation
+pydantic>=2.7.0
+
+# Testing framework
+pytest>=8.0.0
+
+# Phase 2 Search & Verification SDKs
+tavily-python>=0.5.0
+google-genai>=1.0.0
+requests>=2.31.0

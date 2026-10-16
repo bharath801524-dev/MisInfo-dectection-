@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets (CRITICAL: Do not commit secrets)
+.env
+*.env
+!.env.example
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database and run artifacts (keep folders via .gitkeep)
+data/*.sqlite
+data/*.db
+data/*.json
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Streamlit runtime data
+.streamlit/secrets.toml
+
+# Scratch files
+scratch_*.py
+scratch/
+*.db
+*.sqlite
